@@ -88,40 +88,44 @@
                 border-top: 3px green solid;
                 border-bottom: 3px green solid;
                 border-left:  0px;
-                padding: 2px;
+                padding: 5px;
+                padding-bottom: 0px;
                 height: 560px;
-                width: 98.8%;
+                width: 98.58%;
                 margin: 5px 30px 5px 10px;
         }
+        #dd {
+            width:75.7%; 
+            background-color:white; 
+            float:right; 
+            height:555px; 
+            padding-left: 0px;
+        }
         #d1 {
-            /*border: 3px green solid;*/
-            /*border-left: 5px black solid;*/
-            padding: 2px;
+            background-color:teal;
             height: 150px;
-            width: 75%;
-           /* margin: 0 0 ;*/
-            background-color: teal;
-            float:right;
-            /*style="width:75%; background-color:violet; float:right; height:151px;  border-left: 5px black solid; padding-left: 10px;"*/
         }
         .d2 {
-                font-weight:bold;
-                font-size:26px;
-                border: 2px green dashed;
-                height: 100px;
-                width: 40%;
-                margin: 5% 2% 0 3%;
-                text-align:center;
-                background-color:green;
-                float:left;
+            font-weight:bold;
+            font-size:26px;
+            border: 2px green dashed;
+            border-radius: 5px;
+            height: 100px;
+            width: 40%;
+            margin: 5% 2% 0 3%;
+            padding-top:10px;
+            text-align:center;
+            background-color:green;
+            float:left;
         }
         .d3 {
                 font-weight:bold;
                 font-size:26px;
                 text-align: center;
                 margin: 5% 2% 0 3%;
-                padding: 2px;
+                padding-top: 10px;
                 border: 2px darkred solid;
+                border-radius: 5px;
                 height: 100px;
                 width: 40%;
                 margin-left: 8%;
@@ -174,10 +178,10 @@
 
 
   <section style="display:flex;" class="work">
-    <div style=" line-height: 97px; border-right: 5px black solid; text-align: center;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 35px;background-color:white; height:550px; width:24%; padding:2px">
+    <div style="line-height: 55px; border-right: 5px black solid; text-align: center;font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 30px;background-color:white; height:550px; width:24%; padding:2px">
         there is a time to WORK and a time to play...now is time to WORK !!!
     </div>
-    
+    <div id="dd">
             <div id="d1" >
                 project #1 <br/>
                 MERN Stack
@@ -188,7 +192,7 @@
                 Node/IoT
 
             </div>
-            <!--<div class="d3" id="d3">
+            <div class="d3" id="d3">
                 project #3 <br/>
                 React/JavaScript/CSS
 
@@ -201,7 +205,8 @@
             <div class="d3" id="d5">
                 project #5 <br/>
                 HTML/CSS
-            </div>-->
+            </div>
+    </div>
         
     </section>
 
